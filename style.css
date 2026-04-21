@@ -1,0 +1,47 @@
+
+.antonio-font {
+    font-family: "Antonio", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 3px;
+    font-style: normal;
+  }
+  .mainimage{
+    filter:brightness(60%);
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+  }
+h1{
+    color:white;
+    margin: 10px;
+    text-align:center;
+    font-size:100px;
+    font-family:"Antonio", sans-serif;
+    position:absolute;
+    top:75%;
+}
+.newyork{
+    color:white;
+    margin:10px;
+    text-align:center;
+    font-family:"Antonio", sans-serif;
+    position:absolute;
+    top:90%;
+    background:none;
+}
+h2{
+    color:white;
+    font-size:30px;
+    padding:10px;
+    margin: -10px;
+    text-align:center;
+    background-color:rgb(117, 117, 117);
+    font-family:"Antonio", sans-serif;
+}
+.container{
+    position:relative;
+}
+.space{
+    margin: -20px;
+    color:white;
+}
