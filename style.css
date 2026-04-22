@@ -5,22 +5,7 @@
     font-weight: 3px;
     font-style: normal;
   }
-  .mainimage{
-    filter:brightness(60%);
-    display:block;
-    margin-left:auto;
-    margin-right:auto;
-  }
-h1{
-    color:white;
-    margin: 10px;
-    text-align:center;
-    font-size:100px;
-    font-family:"Antonio", sans-serif;
-    position:absolute;
-    top:75%;
-}
-.newyork{
+  .newyork{
     color:white;
     margin:10px;
     text-align:center;
@@ -28,7 +13,28 @@ h1{
     position:absolute;
     top:90%;
     background:none;
+    z-index: 2;
 }
+  h1{
+    color:white;
+    margin: 10px;
+    text-align:center;
+    font-size:100px;
+    font-family:"Antonio", sans-serif;
+    position:absolute;
+    top:75%;
+    z-index: 2;
+}
+
+  .mainimage{
+    filter:brightness(75%);
+    display:block;
+    margin-left:-2%;
+    margin-right:auto;
+    margin-top:-2%;
+  }
+
+
 h2{
     color:white;
     font-size:30px;
