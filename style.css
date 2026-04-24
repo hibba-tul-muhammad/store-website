@@ -84,6 +84,7 @@ h2{
     position:relative;
     margin-top:25px;
     margin-bottom:33px;
+    align-items:center;
 }
 p{
   font-family:"Yaldevi", sans-serif;
