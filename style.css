@@ -5,6 +5,41 @@
     font-weight: 3px;
     font-style: normal;
   }
+  
+.yaldevi-font> {
+  font-family: "Yaldevi", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 3px;
+  font-style: normal;
+}
+ul{
+  position:sticky;
+  top:0;
+ list-style-type: none; 
+ margin:-10px;
+ padding:0;
+ background-color:gray;
+ display:flex;
+
+}
+
+ul li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 15px 16px;
+  text-decoration: none;
+  font-family:"Yaldevi", sans-serif;
+  letter-spacing:4px;
+  justify-content:center;
+}
+ul li a:hover {
+  background-color:black;
+}
+
+ul li a.active{
+  background-color:black;
+}
   .newyork{
     color:white;
     margin:10px;
@@ -24,6 +59,7 @@
     position:absolute;
     top:75%;
     z-index: 2;
+    letter-spacing:5px;
 }
 
   .mainimage{
@@ -39,15 +75,22 @@ h2{
     color:white;
     font-size:30px;
     padding:10px;
-    margin: -10px;
     text-align:center;
-    background-color:rgb(117, 117, 117);
+    background-color:#757575;
     font-family:"Antonio", sans-serif;
+    letter-spacing:5px;
 }
 .container{
     position:relative;
+    margin-top:25px;
+    margin-bottom:33px;
 }
-.space{
-    margin: -20px;
-    color:white;
+p{
+  font-family:"Yaldevi", sans-serif;
+  margin:35px;
+  text-align:center;
 }
+.aboutus{
+  margin:-25px;
+}
+
