@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tuff Apparel- Contact</title>
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+    <script src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yaldevi:wght@200..700&display=swap" rel="stylesheet">
+</head>
+<body>
+            <!--Navigation Bar-->
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <!--End of nav bar-->
+            <h2>Contact</h2>
+            <!--Sumbitting message-->
+            <form onsubmit="handleSubmit(event)">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name"><br><br>
+               
+                <label for="message">Message:</label><br>
+                <textarea id="message"></textarea><br><br>
+               
+                <button type="submit">Send</button>
+               </form>
+               
+               <p id="response"></p>
+               
+</body>
+</html>
